@@ -1,15 +1,15 @@
 import './App.css'
 
 function App() {
-  const eded1 = +prompt('eded 1 daxil edin:')
-  const eded2 = +prompt('eded 2 daxil edin:')
+  const s = +prompt('Mesafeni daxil edin:')
+  const t = +prompt('Vaxti daxil edin:')
  
-  const cem = eded1+ eded2
+  const v = s/t
   return (
     <>
-   <h1>Magsudova Gunesh</h1>
+   <h1>Suret: {v}</h1>
    
-   <h1>{cem}</h1>
+  
  
     </>
     
